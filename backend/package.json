@@ -1,0 +1,21 @@
+{
+  "name": "crm-backend",
+  "version": "1.0.0",
+  "description": "CRM Lead Management System - Backend API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node init && node src/index.js",
+    "dev": "node init && nodemon src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase-admin": "^12.6.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
