@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env.*.local
+
+# Firebase
+*-firebase-adminsdk-*.json
+serviceAccountKey.json
+
+# Build output
+dist/
+build/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+config.bat
